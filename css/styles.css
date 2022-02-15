@@ -5,17 +5,77 @@
 
 body {
   font-family: sans-serif;
+  display: block;
 }
 
 .col-md-2 {
   background-color: #f6f6f6;
+  padding-left: 0.5em;
+  position: absolute;
+  top: 0;
+  width: 10em;
+  left: 0;
+  margin: 0 0.6em 0 0.7em;
+  padding: 0.25em 0;
+  direction: ltr;
 }
+
+#logo {
+  margin-bottom: 1em;
+}
+
+/* For the right main box part
+  margin-top: -1px;
+  border: 1px solid #a7d7f9;
+  border-right-width: 0; */
 
 /* Color for top banner (light gray)
 .col-md-2 {
   background-color: #f9f9f9;
 } */
 
+.col-md-2 {
+  color: blue;
+  font-size: 0.75em;
+  padding-top: 0.3em;
+}
+
+ul {
+  margin: 0.3em 0 0 1.6em;
+  padding: 0;
+  display: block;
+  /* list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px; */
+  list-style-position: initial;
+  list-style-image: none;
+  list-style-type: none;
+}
+
 .category {
-  color: red;
+  display: block;
+  background-image: linear-gradient(
+    to right,
+    rgba(200, 204, 209, 0) 0,
+    #c8ccd1 33%,
+    #c8ccd1 66%,
+    rgba(200, 204, 209, 0) 100%
+  );
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  color: #54595d;
+  margin: 0 0.6em 0 0.7em;
+  border: 0;
+  padding: 0.25em 0;
+  font-size: 0.75em;
+  font-weight: normal;
+  cursor: default;
+}
+
+.invis {
+  display: none;
 }
