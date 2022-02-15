@@ -1,0 +1,21 @@
+/* Color for green part of banner (lighter green)
+.col-md-2 {
+  background-color: #f5fffa;
+} */
+
+body {
+  font-family: sans-serif;
+}
+
+.col-md-2 {
+  background-color: #f6f6f6;
+}
+
+/* Color for top banner (light gray)
+.col-md-2 {
+  background-color: #f9f9f9;
+} */
+
+.category {
+  color: red;
+}
