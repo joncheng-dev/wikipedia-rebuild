@@ -18,6 +18,9 @@ body {
   margin: 0 0.6em 0 0.7em;
   padding: 0.25em 0;
   direction: ltr;
+  color: blue;
+  font-size: 0.75em;
+  padding-top: 0.3em;
 }
 
 #logo {
@@ -34,22 +37,16 @@ body {
   background-color: #f9f9f9;
 } */
 
-.col-md-2 {
-  color: blue;
-  font-size: 0.75em;
-  padding-top: 0.3em;
-}
-
 ul {
   margin: 0.3em 0 0 1.6em;
   padding: 0;
   display: block;
-  /* list-style-type: disc;
+  /* list-style-type: disc; */
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  padding-inline-start: 40px; */
+  /* padding-inline-start: 40px; */
   list-style-position: initial;
   list-style-image: none;
   list-style-type: none;
@@ -68,12 +65,16 @@ ul {
   background-repeat: no-repeat;
   background-size: 100% 1px;
   color: #54595d;
-  margin: 0 0.6em 0 0.7em;
+  margin: 0.5em 0 0 0.66666667em;
   border: 0;
   padding: 0.25em 0;
   font-size: 0.75em;
   font-weight: normal;
   cursor: default;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .invis {
