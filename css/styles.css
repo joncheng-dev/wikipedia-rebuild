@@ -8,11 +8,15 @@ body {
   display: block;
 }
 
-.col-md-3 {
+.column {
+  float: left;
+}
+
+.column.side {
   background-color: #f6f6f6;
   position: absolute;
   top: 0;
-  width: 12em;
+  width: 25%;
   left: 0;
   margin: 1 0.6em 0 0.7em;
   padding: 0.25em 0;
@@ -20,6 +24,10 @@ body {
   font-size: 0.75em;
   padding-top: 0.3em;
   padding-left: 1.5em;
+}
+
+.column.right {
+  width: 75%;
 }
 
 #logo {
@@ -43,7 +51,7 @@ ul {
   /* list-style-type: disc; */
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
+  /* margin-inline-start: 0px; */
   margin-inline-end: 0px;
   /* padding-inline-start: 40px; */
   list-style-position: initial;
